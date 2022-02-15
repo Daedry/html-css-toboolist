@@ -30,7 +30,6 @@ body{
 .container{
     background-color:white;
     width: 950px;
-    height: 550px;
     margin: 2.5rem auto;
     border-radius: 8px;
 }
@@ -61,19 +60,20 @@ body{
 
 /* seconda sezione del MAIN */
 
-.newTask{
+.struttura{
     padding-left: 50px;
 }
 
-.newTask>p{
+.struttura>p{
     display: inline-block;
+    margin: 12px;
 }
 
 #task{
     margin-top: 40px;
     margin-bottom: 0;
 }
-.bottone_azzurro{
+.bottone.azzurro{
     display: inline-block;
     color: white;
     background-color: rgb(68, 154, 211);
@@ -89,3 +89,30 @@ body{
 
 /* terza parte del MAIN */
 
+#today{
+    margin-bottom: 0;
+}
+
+.bottone.viola{
+    color: white;
+    background-color: rgb(151, 72, 151);
+    border: 0.5px solid rgb(151, 72, 151);
+    border-radius: 13px;
+    padding: 5px;
+}
+
+.bottone.verde{
+    color: white;
+    background-color: rgb(31, 88, 31);
+    border: 0.5px solid rgb(31, 88, 31);
+    border-radius: 13px;
+    padding: 5px;
+}
+
+.bottone.arancione{
+    color: white;
+    background-color: orangered;
+    border: 0.5px solid orangered;
+    border-radius: 13px;
+    padding: 5px;
+}
