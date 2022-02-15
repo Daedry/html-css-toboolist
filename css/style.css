@@ -1,13 +1,11 @@
-/* comandi generale */
-
-
+/* comandi generali */
 
 body{
-  /*   width: 100%; */
     background-color: rgb(230, 223, 223);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* header */
+/***** header ******/
 
 .logo{
     position: relative;
@@ -24,11 +22,10 @@ body{
     position: absolute;
     top: 8px;
     font-size: 35px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 
-/* main */
+/***** main *****/
 
 .container{
     background-color:white;
@@ -61,3 +58,34 @@ body{
     border-radius: 5px;
     padding: 5px;
 }
+
+/* seconda sezione del MAIN */
+
+.newTask{
+    padding-left: 50px;
+}
+
+.newTask>p{
+    display: inline-block;
+}
+
+#task{
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.bottone_azzurro{
+    display: inline-block;
+    color: white;
+    background-color: rgb(68, 154, 211);
+    border: 0.5px solid rgb(68, 154, 211);
+    border-radius: 13px;
+    padding: 5px;
+}
+
+.spunta-verde, .spunta-rossa{
+    width: 20px;
+    vertical-align: sub;
+}
+
+/* terza parte del MAIN */
+
