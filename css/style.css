@@ -1,0 +1,19 @@
+/* header */
+.logo{
+    position: relative;
+}
+
+.logo_img{
+    width: 100px;
+}
+
+.logo_text{
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* main */
