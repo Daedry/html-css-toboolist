@@ -1,0 +1,155 @@
+/* comandi generali */
+
+:root{
+    --button-editorial: rgb(134, 22, 50);
+    --button-q1goals: rgb(34, 133, 95);
+    --button-recruiting: rgb(74, 171, 209);
+    --button-mobile: rgb(166, 219, 66);
+    --button-website:rgb(170, 36, 125);
+    --button-sales:rgb(214, 152, 16);
+}
+
+body{
+    background-color: rgb(230, 223, 223);
+    font-family: serif;
+}
+
+body:hover{
+    background-color: var(--button-editorial);
+}
+
+div p, div h3{
+    color:white;
+}
+
+/***** header ******/
+
+.logo{
+    position: relative;
+    background-color: white;
+    margin: -7px;
+}
+
+.logo_img{
+    width: 100px;
+}
+
+.logo_text{
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    font-size: 35px;
+}
+
+
+/***** main *****/
+
+.container{
+    background-color: currentColor;
+    width: 950px;
+    margin: 2.5rem auto;
+    border-radius: 8px;
+    padding-bottom: 50px;
+}
+
+.parte-alta{
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid rgb(230, 223, 223);
+    ;
+}
+
+#addTask{
+    color: white;
+    background-color: var(--button-editorial);
+    border: 1px solid var(--button-editorial);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#addSection{
+    color: rgb(158, 156, 156);
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* seconda sezione del MAIN */
+
+.struttura{
+    padding-left: 50px;
+}
+
+.struttura>p{
+    display: inline-block;
+    margin: 12px;
+}
+
+#task{
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.bottone{
+    border-radius: 13px;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+}
+.editorial{
+    background-color: var(--button-editorial);
+    border: 0.5px solid var(--button-editorial);
+    
+}
+
+.spunta-verde, .spunta-rossa{
+    width: 20px;
+    vertical-align: sub;
+}
+
+/* terza parte del MAIN */
+
+#today, #upcoming{
+    margin-bottom: 0;
+}
+
+.q1goals{
+    background-color:var(--button-q1goals) ;
+    border: 0.5px solid var(--button-q1goals);
+}   
+
+.recruiting{
+    background-color: var(--button-recruiting);
+    border: 0.5px solid var(--button-recruiting);
+}
+
+.mobile{
+    background-color: var(--button-mobile);
+    border: 0.5px solid var(--button-mobile);
+}
+
+/* parte finale del MAIN */
+
+.website{
+    background-color: var(--button-website);
+    border: 0.5px solid var(--button-website);
+}
+
+.sales{
+    background-color: var(--button-sales);
+    border: 0.5px solid var(--button-sales);
+}
+
+.bottone:hover{
+    font-size: 15px;
+    border: 1.5px solid black;
+
+}
+/**** Footer ****/
+
+footer>h4{
+    text-align: center;
+}
