@@ -1,6 +1,18 @@
+/* comandi generale */
+
+
+
+body{
+  /*   width: 100%; */
+    background-color: rgb(230, 223, 223);
+}
+
 /* header */
+
 .logo{
     position: relative;
+    background-color: white;
+    margin: -7px;
 }
 
 .logo_img{
@@ -17,3 +29,35 @@
 
 
 /* main */
+
+.container{
+    background-color:white;
+    width: 950px;
+    height: 550px;
+    margin: 2.5rem auto;
+    border-radius: 8px;
+}
+
+.parte-alta{
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid rgb(230, 223, 223);
+    ;
+}
+
+#addTask{
+    color: white;
+    background-color: rgb(68, 154, 211);
+    border: 0.5px solid rgb(68, 154, 211);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#addSection{
+    color: rgb(158, 156, 156);
+    border: 0.5px solid grey;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
