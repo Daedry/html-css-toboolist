@@ -32,6 +32,7 @@ body{
     width: 950px;
     margin: 2.5rem auto;
     border-radius: 8px;
+    padding-bottom: 50px;
 }
 
 .parte-alta{
@@ -89,7 +90,7 @@ body{
 
 /* terza parte del MAIN */
 
-#today{
+#today, #upcoming{
     margin-bottom: 0;
 }
 
@@ -113,6 +114,24 @@ body{
     color: white;
     background-color: orangered;
     border: 0.5px solid orangered;
+    border-radius: 13px;
+    padding: 5px;
+}
+
+/* parte finale del MAIN */
+
+.bottone.rosa{
+    color: white;
+    background-color: rgb(194, 54, 187);
+    border: 0.5px solid rgb(194, 54, 187);
+    border-radius: 13px;
+    padding: 5px;
+}
+
+.bottone.verdechiaro{
+    color: white;
+    background-color: rgb(108, 240, 108);
+    border: 0.5px solid rgb(108, 240, 108);
     border-radius: 13px;
     padding: 5px;
 }
